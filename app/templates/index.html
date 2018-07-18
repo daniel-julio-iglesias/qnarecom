@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h1>Hi, {{ current_user.username }}!</h1>
+    <div>
+	    <p>This is a Question and Answer Light Weight Recommendation Application</p>
+	    <p>The web application framework is inspired on microblog application from the blog 
+		    <a href="https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world">The Flask Mega-Tutorial Part I: Hello, World! - miguelgrinberg.com</a></p>
+		<p>The recommendation engine is inspired on the use of Naïve Bayes to classify unstructured text from 
+		    <a href="http://guidetodatamining.com/chapter7/">A Programmer's Guide to Data Mining - Chapter 7: Naïve Bayes and unstructured text</a></p>
+	</div>
+{% endblock %}

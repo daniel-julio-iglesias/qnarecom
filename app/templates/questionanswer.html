@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h1>Question and Answer Recommendation</h1>
+    <form action="" method="post" novalidate>
+        {{ form.hidden_tag() }}
+        <p>
+            {{ form.question.label }}<br>
+            {{ form.question() }}<br>
+            {% for error in form.question.errors %}
+            <span style="color: red;">[{{ error }}]</span>
+            {% endfor %}
+        </p>
+        <p>{{ form.category.label }} {{ form.category(size=32) }}</p>
+        <p>
+            {{ form.answer.label }}<br>
+            {{ form.answer() }}
+        </p>
+        <p>{{ form.submit() }}</p>
+    </form>
+{% endblock %}
