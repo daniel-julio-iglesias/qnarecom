@@ -1,7 +1,9 @@
 # qnarecom
-===================================================
+=
+==================================================
 A kind of REAME.first file
 ... but in reality the content are my notes
+
 ==========================================================================
 
 This is the very first version of a
@@ -40,13 +42,6 @@ Thank you.
 
 
 ==========================================================================
-==========================================================================
-
-#!/usr/bin/env python
-### python3
-
-
-===================================================
 TO DO: app sources download
 $ git config --global http.proxy http://proxy.mycompany:80
 $ git clone https://github.com/daniel-julio-iglesias/qnarecom
