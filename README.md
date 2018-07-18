@@ -49,3 +49,4 @@ $ git clone https://github.com/daniel-julio-iglesias/qnarecom
 (...)
 
 ==========================================================================
+See notes_qnarecom.txt file inside docs directory.
