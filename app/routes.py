@@ -1,6 +1,4 @@
 # Views
-
-
 from flask import render_template, flash, redirect, url_for
 from app import app
 from app.forms import LoginForm, QAForm
@@ -13,6 +11,8 @@ from flask import request
 from werkzeug.urls import url_parse
 from app import db
 from app.forms import RegistrationForm
+import os
+from config import basedir
 
 
 @app.route('/')
@@ -69,8 +69,10 @@ def questionanswer():
     if form.validate_on_submit():
 
         # Calling Recommendation Engine
-        training_dir = "./app/static/app/app-kb/app-kb-train/"
-        stop_list_file = "./app/static/app/app-kb/stopwords174.txt"
+        # training_dir = "./app/static/app/app-kb/app-kb-train/"
+        training_dir = os.path.join(basedir, 'app/static/app/app-kb/app-kb-train/')
+        # stop_list_file = "./app/static/app/app-kb/stopwords174.txt"
+        stop_list_file = os.path.join(basedir, 'app/static/app/app-kb/stopwords174.txt')
         bt = BayesText(training_dir, stop_list_file)
 
         question = form.question.data

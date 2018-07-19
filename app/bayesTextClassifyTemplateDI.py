@@ -1,6 +1,7 @@
 import os
 import codecs
 import math
+from config import basedir
 
 """ Source: A Programmer's Guide to Data Mining
 Chapter 7 Naïve Bayes and unstructured text
@@ -22,7 +23,8 @@ class BayesText:
         self.prob = {}
         self.totals = {}
         self.stopwords = {}
-        f = open(stopwordlist)
+        # f = open(stopwordlist)
+        f = codecs.open(stopwordlist, 'r', 'iso8859-1')
         for line in f:
             self.stopwords[line.strip()] = 1
         f.close()
@@ -38,7 +40,6 @@ class BayesText:
         # I am going to eliminate any word in the vocabulary
         # that doesn't occur at least 3 times
 
-        # DI -- I commented this to test
         todelete = []
         for word in self.vocabulary:
             if self.vocabulary[word] < 3:
@@ -46,8 +47,11 @@ class BayesText:
                 # can't delete now because you can't delete
                 # from a list you are currently iterating over
                 todelete.append(word)
+
+        # TODO: -- DI -- I comment this section to test ALL words
         # now delete
         for word in todelete:
+            # print(self.vocabulary[word])
             del self.vocabulary[word]
 
         # now compute probabilities
@@ -71,8 +75,10 @@ class BayesText:
         counts = {}
         total = 0
         for file in files:
-            # print(currentdir + '/' + file)
-            f = codecs.open(currentdir + '/' + file, 'r', 'iso8859-1')
+            # print(currentdir + os.sep + file)
+            # f = codecs.open(currentdir + '/' + file, 'r', 'iso8859-1')
+            f = codecs.open(currentdir + os.sep + file, 'r', 'iso8859-1')
+            # f = open(currentdir + os.sep + file)
             for line in f:
                 tokens = line.split()
                 for token in tokens:
@@ -92,7 +98,9 @@ class BayesText:
         results = {}
         for category in self.categories:
             results[category] = 0
+        # print(filename)
         f = codecs.open(filename, 'r', 'iso8859-1')
+        # f = open(filename)
         for line in f:
             tokens = line.split()
             for token in tokens:
@@ -126,7 +134,7 @@ class BayesText:
                         self.prob[category][token])
         results = list(results.items())
         results.sort(key=lambda tuple_seq: tuple_seq[1], reverse=True)
-        # for debugging I can change this to give me the entire list
+        # for debugging I can change the next line to give me the entire list
         return results[0][0]
 
     def read_file_content(self, training_dir, category):
@@ -135,7 +143,9 @@ class BayesText:
         content = ""
         for filename in files:
             # print(filename)
-            f = codecs.open(current_dir + '/' + filename, 'r', 'iso8859-1')
+            # f = codecs.open(current_dir + '/' + filename, 'r', 'iso8859-1')
+            f = codecs.open(current_dir + os.sep + filename, 'r', 'iso8859-1')
+            # f = open(current_dir + os.sep + filename)
             for line in f:
                 content += line
             f.close()
@@ -146,7 +156,11 @@ if __name__ == '__main__':
     # change these to match your directory structure
     # trainingDir = "/Users/raz/Dropbox/guide/data/20news-bydate/20news-bydate-train/"
     # trainingDir = "./app/static/app/app-kb/app-kb-train/"
-    trainingDir = "./app/static/app/app-kb/app-kb-train/"
+    # trainingDir = "./app/static/app/app-kb/app-kb-train/"
+
+    trainingDir = os.path.join(basedir, 'app', 'static', 'app', 'app-kb', 'app-kb-train')
+    trainingDir = trainingDir + os.sep
+    # print(trainingDir)
     
     # (just create an empty file to use as a stoplist file.)
     # stoplistfile = "/Users/raz/Dropbox/guide/data/20news-bydate/emptyStoplist.txt"
@@ -157,7 +171,10 @@ if __name__ == '__main__':
     # stoplistfile = "./app/static/app/app-kb/stoplist.txt"
     # stoplistfile = "./app/static/app/app-kb/stopwords0.txt"
     # stoplistfile = "./app/static/app/app-kb/stopwords25.txt"
-    stoplistfile = "./app/static/app/app-kb/stopwords174.txt"
+    # stoplistfile = "./app/static/app/app-kb/stopwords174.txt"
+
+    stoplistfile = os.path.join(basedir, 'app', 'static', 'app', 'app-kb', 'stopwords174.txt')
+    # print(stoplistfile)
 
     bT = BayesText(trainingDir, stoplistfile)
     print("Running Test ...")
@@ -170,9 +187,16 @@ if __name__ == '__main__':
     # print(result)
     # result = bT.classify("/Users/raz/Dropbox/guide/data/20news-bydate/20news-bydate-test/soc.religion.christian/21424")
 
-    result = bT.classify("./app/static/app/app-kb/app-kb-test/req.txt")
+    reqfile = os.path.join(basedir, 'app', 'static', 'app', 'app-kb', 'app-kb-test', 'req.txt')
+    # print(reqfile)
+
+    # result = bT.classify("./app/static/app/app-kb/app-kb-test/req.txt")
+    result = bT.classify(reqfile)
     print(result)
 
-    # category_result = bT.classify_text("Person Unique Identification Number")
-    # print(category_result)
+    # The next string results with un-desired category
+    category_result = bT.classify_text("Person Unique Identification Number")
+    # The next string results desired category
+    # category_result = bT.classify_text("Dr. Michael Jellinek")
+    print(category_result)
     # print(bT.read_file_content(trainingDir, category_result))

@@ -1,10 +1,11 @@
 # qnarecom
 
 ==================================================
+
 A kind of REAME.first file
 ... but in reality the content are my notes
 
-==========================================================================
+==================================================
 
 This is the very first version of a
 Recommendation Engine wrapped into a Web Framework.
@@ -27,8 +28,11 @@ MS
 ..register your user
 ...and test the Q&A hyperlink introducing a text
 as question or requirement...e.g. ...
-"Person Unique Identification Number" ...and see the
-recommended answer.
+"Person Unique Identification Number" ...
+or  "Dr. Michael Jellinek" ....
+and see the the recommended answer.
+Note: Your Training directory will need more information to give you better results.
+Take into acount abour 1024 sample request files.
 
 The below initial project notes are from my exercises based on
 The Flask Mega-Tutorial
@@ -41,12 +45,13 @@ Enjoy it and please, let me know any comments to make it better/useful.
 Thank you.
 
 
-==========================================================================
+==================================================
 
 TO DO: app sources download
 $ git config --global http.proxy http://proxy.mycompany:80
 $ git clone https://github.com/daniel-julio-iglesias/qnarecom
 (...)
 
-==========================================================================
+==================================================
+
 See notes_qnarecom.txt file inside docs directory.

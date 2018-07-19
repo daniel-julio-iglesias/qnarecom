@@ -24,8 +24,11 @@ MS
 ..register your user
 ...and test the Q&A hyperlink introducing a text
 as question or requirement...e.g. ...
-"Person Unique Identification Number" ...and see the
-recommended answer.
+"Person Unique Identification Number" ...
+or  "Dr. Michael Jellinek" ....
+and see the the recommended answer.
+Note: Your Training directory will need more information to give you better results.
+Take into acount abour 1024 sample request files.
 
 The below initial project notes are from my exercises based on
 The Flask Mega-Tutorial
