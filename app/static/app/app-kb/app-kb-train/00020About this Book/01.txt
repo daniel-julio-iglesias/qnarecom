@@ -1,0 +1,10 @@
+GNU Health/Introduction
+About this Book
+This book provides an introduction to GNU Health, The Free Health and Hospital Information System. Unlike traditional books, this Wikibook will be updated with the latest stable GNU Health version. Health is dynamic by nature, so is GNU Health.
+Versioning: The book will include functionality from the upcoming version, several weeks before the stable release. This means that some texts and pictures in the book belong to the new version.
+The book is organized in the following sections:
+    Introduction to GNU Health
+    Functional guide: Philosophy behind the project and the core functionality. Provides the information on how to approach a GNU Health implementation.
+    Modules in Detail: Information and instructions for specific modules. Each modules encompasses functionality for a speciality (pediatrics, surgery, gynecology, socioeconomics ... )
+    Technical: Installation manual, administrator's guide
+If you are starting with GNU Health, you should read the book in a linear, sequential fashion. It's the best way to understand the software, the project and how to implement it. 

@@ -1,0 +1,5 @@
+Development Environment
+
+On August 26th, 2011, the Free Software Foundation adopted GNU Health as an official GNU project. Since then, the development environment is hosted at GNU Savannah. Besides the mailing lists, here you can post bugs, tasks and check out the latest development version.
+
+http://savannah.gnu.org/projects/health 

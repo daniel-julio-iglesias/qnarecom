@@ -1,0 +1,15 @@
+GNU Health/Resources
+
+Contents
+
+    1 More GNU Health Resources
+    2 Website
+    3 Mailing Lists
+    4 Twitter
+    5 IRC Channels
+    6 Development Environment
+    7 Google+
+    8 Community Demo Server
+
+More GNU Health Resources
+Besides the GNU Health documentation on Wikibooks (which you are reading right now), there are several other resources for the GNU Health community.

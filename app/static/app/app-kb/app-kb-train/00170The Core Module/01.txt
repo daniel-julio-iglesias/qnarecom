@@ -1,0 +1,25 @@
+GNU Health/The core module
+
+The Core Module
+
+As we have mentioned already in previous sections of the book, GNU Health is composed of different modules which will provide specific functionality to your health center.
+
+The module health is at the center of GNU Health. This module contains the core models and classes, so the rest of the modules will just inherit them. This gives modularity and scalability, without leaving behind the most important building blocks in public health. Some of the models found in the core module are:
+GNU Health modular design
+
+    Individuals
+    Families
+    Domiciliary Units
+    Operational Sectors
+    Health Centers
+    Diseases
+    Patient
+    Patient Evaluation / Encounters
+    Medicaments
+    Treatments
+
+There are many others models in the core module, but this subset will give you an idea of the concept. If you are not a programmer, you don't really have to worry much about how GNU Health deals internally with dependencies and inter-module communication. For example, if you want to install the pediatrics module health_pediatrics, it will automatically mark the core module health for installation, as a dependency.
+
+To learn more about GNU Health modules, please refer to the Modules chapter.
+
+In this documentation, we will cover the functionality of the core module first before exploring the possibilities of the other modules. 

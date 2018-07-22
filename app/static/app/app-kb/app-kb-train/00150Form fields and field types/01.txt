@@ -1,0 +1,17 @@
+Form fields and field types
+
+Let's now go through the most relevant field types and how to properly use them. We will use the previous screenshot of the patient as the example.
+
+    Text fields : These type of fields allow us to enter a lot of information. You will see them normally like large boxes. In our example, the field under "Patient Allergies and Critical Information" is a text field.
+    Character fields : These type of fields are similar to the Text fields, but with a limited size. There are few character fields and none in this example. The diet type in the lifestyle section or the Gene ID on genetics are example for character fields.
+    Date Fields : These fields will open a calendar when clicked, so you can choose the date. Alternatively, you can enter the date manually. The date of birth is a Date field.
+    DateTime Fields : Similar to the date fields, but with the addition of time. An example of this field is the Date/time of birth of the newborn, in the neonatology module.
+    Integer fields : These fields allow only integer numbers. They show a "0" by default. An example is Minutes of physical exercise per day
+    Float fields : You can enter decimal numbers. The body temperature is one example of a float field.
+    Function fields : These are special fields, in the sense that they are calculated in real time, depending, most of the time, on the values of other fields. For example, the Patient Age is a function field. Notice that the field has a grey background, meaning that is read-only. It will calculate the current patient age in years/months/days depending on the patient date of birth. Another example of function field is the Hospitalization Status of the patient.
+    Selection fields : These fields will let you choose from a list of options. For example, the patient Sex or the blood type are selection fields. This type of field minimizes typing error.
+    Relational fields : These fields retrieve information from a related model. They are of the form One2Many or Many2One. Relational fields are important to keep the uniqueness of data. By using this type of fields, you link the ID of an existing record, without duplicating information, to another record. The patient is a relational (One2Many) field. It relates to the party model, from where it gets all the administrative data (Social security number, address, etc... ).
+
+    Shortcuts : [F2] will open the related record and [F3] will create a new record
+
+    Required fields : These fields are mandatory. You must enter information or else the record won't be saved. You can quickly identify the required fields because they have a blue background. The Patient field is a required field.

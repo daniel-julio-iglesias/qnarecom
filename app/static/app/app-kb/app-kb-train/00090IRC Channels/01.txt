@@ -1,0 +1,8 @@
+IRC Channels
+
+You can find live help at IRC in the following channels:
+
+    #gnu-health: English
+    #gnu-health-es: Spanish
+
+You can use any IRC client or Free node web interface 

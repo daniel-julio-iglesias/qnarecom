@@ -1,0 +1,14 @@
+Navigation Area
+
+Now is time to identify the components of the GNU Health Screen. In the following screenshot we have marked the main sections :
+Navigating GNU Health
+
+    Main Menu : We can navigate among the different functionalities. Configuration, Patients, Financial, ... You can deactivate the main menu (useful in low resolution devices) by pressing Ctrl+T
+    Tabs : Tryton allows you to have multiple records open at the same time. The section "Tabs" of the screenshot shows the current form.
+    Actions : Under the Tabs section you will find different icons that act upon the current record. You can, for instance, create a new record, generate a report, change the view, select related records associated to this patient (appointments, lab tests... ).
+    Record form : This is where you see and input the information. Notice that you can have tabbed forms (notebooks) in the lower half of the form, which allows quick and easy navigation. In this example some of the tabs within the records are main, medication, diseases, surgeries, socioeconomics and gynecological information. The upper side of this form is static, so the health professional has the most relevant information about the patient always visible.
+    Status bar : The lower side of the screen shows the status bar. From left to right, these are fields :
+        User name : In this case we logged in as Administrator
+        Organization Name : GNU Solidario Hospital
+        Requests : Tryton has an internal messaging system. You will get notifications in realtime.
+        Server Information : The lower right section gives you login and server information. In this example, it shows "admin@localhost:8000/demo". admin is the login name, localhost the name of the GNU Health server, 8000 is the port where connects and demo is the database name.

@@ -1,0 +1,14 @@
+Mailing Lists
+
+There are several mailing lists for information exchange via email:
+
+    health: General questions and discussions about GNU Health
+    health-announce: GNU Health releases and events (read-only list)
+    health-dev: Development, requests and bugs
+    health-security: Security advisories around GNU Health and its components (read-only list)
+    health-i18n: GNU Health localization and translation
+    health-es: General questions and discussions about GNU Health in Spanish
+    health-fr: General questions and discussions about GNU Health in French
+    health-pt: General questions and discussions about GNU Health in Portuguese
+
+To subscribe to these mailing lists, please visit https://savannah.gnu.org/mail/?group=health 

@@ -1,0 +1,2 @@
+Community Demo Server
+This server is in Europe and serves as a demo server to practice and see a running system. You can find more information in the Online Demo Database section of this book.

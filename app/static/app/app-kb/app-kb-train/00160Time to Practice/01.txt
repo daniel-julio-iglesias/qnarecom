@@ -1,0 +1,13 @@
+Time to Practice
+
+Important : Make sure you are in your demo database. This demo database that you created has no important information. You can put anything you want. You can even delete it and recreate it. Just make sure you don't use a production database for your tests. One way to prevent accidentally entering the production database is to have a different password for your demo database, this way if you select the wrong database, you won't be able to login.
+
+If you do not have a demo database yet, please refer to the chapter Different ways to test GNU Health to learn how to create your own testing environment.
+
+It's been a lot of information! Now is time to play around with all this information.
+
+With the information try the following :
+
+    Navigate in the Main menu
+    Open the Configuration Submenu
+    Create a Physician with the Family Medicine Specialty.

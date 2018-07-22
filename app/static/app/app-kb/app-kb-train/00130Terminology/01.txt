@@ -1,0 +1,51 @@
+GNU Health/First Steps
+
+Contents
+
+    1 Terminology
+    2 Navigation Area
+    3 Form fields and field types
+        3.1 Time to Practice
+
+Terminology
+
+Before we start the implementation process, it is important to get familiar with the terminology commonly used in the rest of this book. At the beginning some words might be a bit puzzling, but with a bit of practice, you will find this terminology quite logical.
+
+First you should know that GNU Health builds upon other software. Even if you are not a technical personal, it might be helpful to understand that GNU Health is an extension to Tryton, a general enterprise resource planning system (or ERP for short) for almost any type of company or organisation. Tryton is developed in the Python programming language, and it stores all its data in a PostgreSQL database.
+
+The following concepts are essential to understand how GNU Health works:
+Company. An example of a Party
+
+    Party: In GNU Health, a party is an entity. An abstract concept to define someone or something that has legal status. It's the unit of the relationship in Tryton. Some examples of Parties are:
+        Patients
+        Companies
+        Health professionals
+        Health centers
+
+    Model: The model defines each object in GNU Health. Models define the database objects (tables). gnuhealth.patient is a model example.
+
+    Field: The building blocks of the model. For example: age and sex are gnuhealth.patient fields.
+
+    View: Views are the representation of the model on the screen. Most models will have an individual form to accept data into the model and display data out from the model.
+        Tree: The list format of the model. The tree view allow us to search select multiple records.
+
+Example of a Tree list
+Form: The representation of the model on the screen that allows you to input data.
+
+        Form view of the same record
+
+    Table: The model representation at the database server. The model gnuhealth.patient is mapped in the table gnuhealth_patient in postgreSQL.
+
+    Record: Each unique entry in a particular database table. For example Ana Betz is a record on the gnuhealth_patient table in PostgreSQL.
+
+GNU Health modular design
+
+    Module: Modules are programs that provide specific functionality. GNU Health provides different modules to meet your health center needs. Example of modules are Socioeconomics, Genetics and Surgery. You should only install the modules that are actually needed for your center.
+
+    Report: Reports allows you to dynamically print documents in Open Document / LibreOffice format (ODF), Portable Document Format (PDF) or even directly to the printer.
+
+Sample Lab report
+
+    Action: Actions are processes excecuted upon one or more selected records.
+
+    Notebook: A tabbed group of forms designed to make navigation easier.

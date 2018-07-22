@@ -1,0 +1,7 @@
+People before Patients
+
+If we want to be good in a Public Health system, the first thing we need to do is knowing our population. As I say, we need to deal with people before patients . Whenever possible, the health center should have a census, and the list of domiciliary units (DU) and their conditions, at least of those habitants that are part of the operational sector covered by the health center.
+
+From a functional and implementation point of view, we should see the GNU Health core module objects as the first ones to be assessed. The process of collecting this information will get our health center involved with the community. In the next chapters we will be covering how to setup a Domiciliary Unit (DU); an Individual; the habitants of a DU; Families ; Operational Areas and Operational Sectors.
+
+Once you have that information in place, you will be able to give a new attribute to the individual when she or he first come to your office, the patient attribute. As you can see, there are precious information and actions that can be done in Public Health before dealing with a single patient. 
