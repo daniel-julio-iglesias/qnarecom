@@ -1,0 +1,17 @@
+GNU Health
+GNU Health
+The Free/Libre Health and Hospital Information System
+GNU Health logo
+GNU Health/Preface
+Preface
+Regardless of the remarkable achievements in technology, thousands of children will die today from preventable diseases. Infectious diseases such as malaria, chagas, AIDS, tuberculosis or infectious diarrhea destroy millions of families in developing countries. Noncommunicable diseases including obesity, diabetes, heart disease, cancer or major depressive syndrome hit both the North and the South, although with much higher prevalence and incidence among the underprivileged sectors. Equally important are the alarming levels of child labor, human trafficking and sex slavery, family violence, child abuse or drug addiction. Complex, multi-etiological and anthropological issues also exist that desperately need to be addressed.
+We need a change of paradigm: We need to move away from the reactive Model of Disease, to the proactive Model of Health . Many countries lack good public health, sometimes because they put the focus on the private sector; sometimes because they give too much emphasis to technology. The most sophisticated technology will never beat good Primary Health Care policies. Education, good nutrition, family affection, physical exercise, and sanitary housing conditions are the best and most sustainable public policies one can make. The concept of Integrative Medicine is always present in GNU Health.
+I started the GNU Health project in 2008 to improve Primary Health Care (PHC) in rural communities. Today GNU Health has grown to a full Health and Hospital Information System, but the spirit remains the same. GNU Health complements PHC, but never will replace the work of the mother, teacher, nurse, doctor or social worker. What GNU Health does well is handling and processing large amounts of data. GNU Health manages demographics; patient evaluations, hospitalizations, clinical history; genetic and hereditary risks; epidemiology and health center resources (stock, finances, human resources, pharmacies, laboratory .. ), to name a few resources. Computing power and data processing improve team work and optimize health promotion and disease prevention campaigns. For example, GNU Health allows quick identification of new TBC or Dengue outbreaks by showing the index cases in a map, in realtime. It can show the trends in infestation level of vectors that transmit Chagas disease in Domiciliary Units; It can cross indicators in different communities, and relate Social determinants of Health in many conditions (family violence, teenage pregnancy, child mortality, ... ).
+GNU Health is a philosophy. It's putting Free Software as a public good, and as an integral part of Public Health. It's about equity, community work and solidarity. It's about empowering the health professionals, their health centers and their communities. It's about putting in action many aspects from the Alma-Ata Declaration.
+GNU Health is about embracing System of Health paradigm, instead of the conventional system of disease that many countries are inmersed today.
+I hope you enjoy this book, and I count on you to join our growing community of academic institutions, NGOs, public hospitals, private companies and Multilateral organizations. Free Software in Health Care is here to stay.
+eHealth for all !
+Luis Falcón, MD
+GNU Solidario
+Las Palmas de Gran Canaria, Spain
+GNU Health paradigm of System of Health
