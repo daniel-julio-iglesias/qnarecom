@@ -1,4 +1,0 @@
-Newborn and Mother Wristbands
-To maximize security and identification of the newborn, the system assigns a newborn ID, and allows to print the four identification bands including QR codes to place it on the baby's and the mother's wrists and ankles. QR codes can be read from most mobile devices through the build-in camera, and they can store a lot more information than traditional bar codes.
-To print a wristband for the baby, open the newborn form and click the Report button. Depending on your needs, choose the Newborn ID or Newborn ID - QR option. This will generate an ODT file and open it in your word processor (e.g. LibreOffice Write or Microsoft Word).
-How to print a wristband for a newborn in GNU Health

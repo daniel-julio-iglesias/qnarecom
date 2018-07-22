@@ -1,5 +1,0 @@
-PSC (Pediatrics Symptom Checklist)
-GNU Health has incorporated the Pediatric Symptoms Checklist (PSC) developed by Dr. Michael Jellinek and Dr. Michael Murphy from the Massachusetts General Hospital. The authors define the PSC as "a brief screening questionnaire that is used by pediatricians and other health professionals to improve the recognition and treatment of psychosocial problems in children."
-GNU Health uses the standard PSC form – to be completed by the parents – and will include the Y-PSC. The system automatically calculates the total PSC score, based upon form values. It also highlights the evaluations that might indicate a child psychosocial impairment. The PSC cutoff values will be localized to the different countries (Japan, Germany, Holland ...), so it will fit their recommended cutoffs.
-How to find all PSC records for a patient
-The PSC form in GNU Health

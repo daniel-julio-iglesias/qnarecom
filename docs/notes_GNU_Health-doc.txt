@@ -1,3 +1,115 @@
 GNU Health
 The Free/Libre Health and Hospital Information System
 URL: https://en.wikibooks.org/wiki/GNU_Health
+
+=================================================
+
+https://en.wikibooks.org/wiki/GNU_Health
+
+
+GNU Health : Freedom and Equity in Health Care
+
+    Preface100% developed
+    Introduction100% developed
+    Resources100% developed
+
+
+The Basics
+
+    First Steps75% developed
+    The core module75% developed
+        Health Institutions50% developed
+        Domiciliary Units 75% developed
+        Individuals75% developed
+        Families100% developed
+        Health Professionals75% developed
+        Medicaments 0% developed
+        Prescriptions 25% developed
+        Vital Records75% developed
+        Immunizations75% developed
+    Configuration25% developed
+
+Patient Management
+
+    Patient Management 50% developed
+    Patient Evaluations 50% developed
+    Patient Appointment and Admission Management 75% developed
+
+Health Center Management
+
+    Occhiolino, the GNU LIMS : Laboratory Information Management System 75% developed
+    Financial Accounting 0% developed
+    Analytic Accounting 0% developed
+    Products and Services Management 50% developed
+    Purchase Administration 0% developed
+    Stock Management 75% developed
+    Access Management 50% developed
+
+Modules in Detail
+
+    Socioeconomics 0% developed
+    Lifestyle 0% developed
+    Functioning and Disability 0% developed
+    Gynecology 100% developed
+    Obstetrics 100% developed
+    Genetics 75% developed
+    Surgery 75% developed
+    Pediatrics 50% developed
+    Nursing 25% developed
+    Inpatient Management 50% developed
+    Intensive Care Unit 50% developed
+    Neglected Tropical Diseases 100% developed
+    Reporting 50% developed
+
+Health Information System
+
+    Demographics 0% developed
+    Epidemiology 0% developed
+
+GNU Health Technical Guide
+
+    Installation 100% developed
+    Administration 50% developed
+        User Interface 0% developed
+        Models 0% developed
+        Sequences 0% developed
+        Scheduler 0% developed
+        Localization 75% developed
+        Modules 75% developed
+        Users 0% developed
+        Countries 0% developed
+        Calendar and WebDAV 0% developed
+    Central Authentication 100% developed
+    The GNU Health Control Center 75% developed
+    Patches and Patchsets 100% developed
+    Upgrade 100% developed
+    Backups and High-Availability 75% developed
+    Security 75% developed
+    Troubleshooting 0% developed
+    FHIR REST server 100% developed
+    Using the FHIR REST server 75% developed
+    Release Process 100% developed
+    Contributing 100% developed
+
+Demo and test environments
+
+    Different ways to test GNU Health 75% developed
+    The Demo database 75% developed
+    The Live-CD 75% developed
+
+Plugins
+
+    GNU Health Plugins 100% developed
+
+The GNU Health Embedded project
+
+    GNU Health Embedded 75% developed
+
+Appendix
+
+    Code of Conduct
+    Glossary 25% developed
+    FAQ 25% developed
+    Operating System-Specific Notes 100% developed
+    Packaging Guidelines 75% developed
+    Community Pages 25% developed

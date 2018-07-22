@@ -1,3 +1,0 @@
-GNU Health/Pediatrics
-Introduction to Pediatrics Section
-The Health - Pediatrics section has the functionality for pediatric patients. It focuses on the basic pediatric evaluation, making emphasis in the nutritional, growth and development of the infant and child.
