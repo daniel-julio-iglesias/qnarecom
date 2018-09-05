@@ -1,5 +1,10 @@
 # qnarecom
 
+This is a prototype.
+Do not use in production.
+TODO: UNDER CONSTRUCTION!!!
+
+
 ==================================================
 
 A kind of REAME.first file
