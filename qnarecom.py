@@ -1,3 +1,6 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
 # Main application module
 
 # https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world
