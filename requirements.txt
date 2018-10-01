@@ -1,0 +1,6 @@
+# this requirements file is used by Heroku
+# requirements for other configurations are located in the requirements subdirectory
+# -r requirements/heroku.txt
+
+# this requirements file is used by Development
+-r requirements/dev.txt
